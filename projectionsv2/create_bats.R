@@ -250,6 +250,6 @@ bats2 <- bats2[,
 ]
 
 bats2 <- bats2 |>
-  select(66,65,67, 1:64)
+  select(443,442,444, 1:441)
 
 write.csv(bats2, "bats2.csv", row.names = FALSE)
