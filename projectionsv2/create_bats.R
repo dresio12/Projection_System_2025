@@ -226,3 +226,30 @@ adj_data <- adj_data |>
 adj_data <- left_join(adj_data, data_nosplit)
 
 write.csv(adj_data, "bats.csv", row.names = FALSE)
+
+
+bats <- read.csv("https://raw.githubusercontent.com/dresio12/Projection_System_2025/main/projectionsv2/bats.csv", stringsAsFactors = FALSE)
+
+bats <- bats |>
+  pivot_wider(names_from = Season, values_from = 5:67)
+
+bats2 <- bats |>
+  group_by(playerid) |>  # Group by player name
+  summarize(across(everything(), ~ first(na.omit(.))), .groups = "drop")
+
+# Extract and reorder columns by year in descending order
+bats2 <- bats2[, 
+                     order(
+                       sapply(colnames(bats2), function(x) {
+                         year <- stringr::str_extract(x, "\\d{4}")
+                         as.numeric(year)  # Convert extracted year to numeric for sorting
+                       }),
+                       decreasing = TRUE,
+                       na.last = TRUE
+                     )
+]
+
+bats2 <- bats2 |>
+  select(66,65,67, 1:64)
+
+write.csv(bats2, "bats2.csv", row.names = FALSE)
