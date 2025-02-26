@@ -66,7 +66,7 @@
 "Enrique Hernandez","R",0.20286,"LAD"
 "Carlos Perez","R",0.20352,"CHC"
 "Rob Brantly","L",0.21293,"MIA"
-"Gio Urshela","R",NA,"ATH"
+"Gio Urshela","R",0.21854,"ATH"
 "Corey Dickerson","L",0.208,NA
 "Jurickson Profar","B",0.2350856,"ATL"
 "Adam Duvall","R",0.191,NA
@@ -218,7 +218,7 @@
 "Tyler O'Neill","R",0.21736,"BAL"
 "Tyler Wade","L",0.19646,"SDP"
 "Yonathan Daza","R",0.218,NA
-"Miguel Andujar","R",NA,"ATH"
+"Miguel Andujar","R",0.23128,"ATH"
 "Luis Torrens","R",0.20739,"NYM"
 "Aledmys Diaz","R",0.186,NA
 "Austin Nola","R",0.2378,"COL"
@@ -306,7 +306,7 @@
 "Garrett Stubbs","L",0.23432,"PHI"
 "Nathan Lukes","L",0.25608,"TOR"
 "LaMonte Wade Jr","L",0.245,"SFG"
-"Seth Brown","L",NA,"ATH"
+"Seth Brown","L",0.20045,"ATH"
 "Brett Sullivan","L",0.20304,"SDP"
 "Brian Anderson","R",0.229,NA
 "Dansby Swanson","R",0.23424,"CHC"
@@ -379,7 +379,7 @@
 "Keibert Ruiz","B",0.2478708,"WSN"
 "Vladimir Guerrero Jr","R",0.29988,"TOR"
 "Bo Bichette","R",0.26418,"TOR"
-"Brent Rooker","R",NA,"ATH"
+"Brent Rooker","R",0.24696,"ATH"
 "Daniel Johnson","L",0.229,NA
 "Mike Brosseau","R",0.20256,"SDP"
 "Edward Olivares","R",0.25,NA
@@ -391,7 +391,7 @@
 "Rylan Bannon","R",0.218,NA
 "Dairon Blanco","R",0.23652,"KCR"
 "Zach Remillard","R",0.221,NA
-"Jhonny Pereda","R",NA,"ATH"
+"Jhonny Pereda","R",0.22148,"ATH"
 "Jason Delay","R",0.22,"PIT"
 "Charles Leblanc","R",0.19788,"ATL"
 "Joshua Palacios","L",0.27664,"PIT"
@@ -464,7 +464,7 @@
 "Jose Miranda","R",0.25149,"MIN"
 "Jose Devers","L",0.22826,"ATL"
 "Elehuris Montero","R",0.23,NA
-"CJ Alexander","L",NA,"ATH"
+"CJ Alexander","L",0.1729,"ATH"
 "Kody Clemens","L",0.23129,"PHI"
 "Ivan Herrera","R",0.24102,"STL"
 "Logan Porter","R",0.227,"SFG"
@@ -472,7 +472,7 @@
 "Oscar Gonzalez","R",0.18816,"SDP"
 "Leo Rivas","B",0.1913137,"SEA"
 "Trey Cabbage","L",0.24,NA
-"Alejo Lopez","B",NA,"ATH"
+"Alejo Lopez","B",0.2457344,"ATH"
 "Sean Bouchard","R",0.27724,"COL"
 "Dalton Guthrie","R",0.228,NA
 "Lars Nootbaar","L",0.247,"STL"
@@ -504,7 +504,7 @@
 "Enmanuel Valdez","L",0.24024,"PIT"
 "Jair Camargo","R",0.25452,"MIN"
 "Jose Fermin","R",0.26162,"STL"
-"Esteury Ruiz","R",NA,"ATH"
+"Esteury Ruiz","R",0.20188,"ATH"
 "Andres Chaparro","R",0.22176,"WSN"
 "Jonathan Aranda","L",0.22278,"TBR"
 "Freddy Fermin","R",0.2592,"KCR"
@@ -541,12 +541,12 @@
 "Heliot Ramos","R",0.267,"SFG"
 "Johnathan Rodriguez","R",0.21375,"CLE"
 "Tyler Freeman","R",0.2394,"CLE"
-"Lawrence Butler","L",NA,"ATH"
+"Lawrence Butler","L",0.2356,"ATH"
 "Michael Siani","L",0.216,"STL"
 "Jarred Kelenic","L",0.23028,"ATL"
 "Gabriel Arias","R",0.21755,"CLE"
 "Alejandro Kirk","R",0.2652,"TOR"
-"Jordan Diaz","R",NA,"ATH"
+"Jordan Diaz","R",0.20188,"ATH"
 "Gabriel Moreno","R",0.28248,"ARI"
 "Gustavo Campero","B",0.205086,"LAA"
 "Maikel Garcia","R",0.28404,"KCR"
@@ -596,7 +596,7 @@
 "Terrin Vavra","L",0.23484,"BAL"
 "JP Martinez","L",0.186,NA
 "Tyler Cropley","R",0.209,NA
-"Max Schuemann","R",NA,"ATH"
+"Max Schuemann","R",0.2254,"ATH"
 "DaShawn Keirsey Jr","L",0.2,"MIN"
 "Richie Palacios","L",0.21338,"TBR"
 "Jonathan Ornelas","R",0.26334,"TEX"
@@ -635,7 +635,7 @@
 "Aaron Schunk","R",0.27376,"COL"
 "Korey Lee","R",0.211,"CHW"
 "Jake Alu","L",0.222,NA
-"Kyle McCann","L",NA,"ATH"
+"Kyle McCann","L",0.1881,"ATH"
 "Marco Luciano","R",0.234,"SFG"
 "Bryan Ramos","R",0.245,"CHW"
 "Drew Millas","B",0.2289654,"WSN"
@@ -648,7 +648,7 @@
 "Blake Sabol","L",0.2712,"BOS"
 "Jared Triolo","R",0.226,"PIT"
 "Grae Kessinger","R",0.22898,"ARI"
-"Shea Langeliers","R",NA,"ATH"
+"Shea Langeliers","R",0.22148,"ATH"
 "Braden Shewmake","L",0.18952,"NYY"
 "Andre Lipcius","R",0.229,"CHW"
 "Michael Toglia","B",0.2283534,"COL"
@@ -667,7 +667,7 @@
 "Kyle Stowers","L",0.24075,"MIA"
 "Andrew Vaughn","R",0.239,"CHW"
 "Tyler Fitzgerald","R",0.21,"SFG"
-"Darell Hernaiz","R",NA,"ATH"
+"Darell Hernaiz","R",0.23226,"ATH"
 "Adley Rutschman","B",0.268658,"BAL"
 "Gunnar Henderson","L",0.27398,"BAL"
 "Bryson Stott","L",0.27169,"PHI"
@@ -676,7 +676,7 @@
 "Michael Busch","L",0.23937,"CHC"
 "Spencer Steer","R",0.2499,"CIN"
 "Jonny DeLuca","R",0.22795,"TBR"
-"JJ Bleday","L",NA,"ATH"
+"JJ Bleday","L",0.2318,"ATH"
 "Kameron Misner","L",0.24158,"TBR"
 "Josh Smith","L",0.2346,"TEX"
 "Kyren Paris","R",0.2079,"LAA"
@@ -693,7 +693,7 @@
 "Austin Martin","R",0.21816,"MIN"
 "Dillon Dingler","R",0.22442,"DET"
 "Spencer Torkelson","R",0.19698,"DET"
-"Tyler Soderstrom","L",NA,"ATH"
+"Tyler Soderstrom","L",0.19285,"ATH"
 "Zach DeLoach","L",0.23463,"CHW"
 "Jordan Walker","R",0.25544,"STL"
 "Patrick Bailey","B",0.245,"SFG"
@@ -753,9 +753,9 @@
 "Will Wagner","L",0.23862,"TOR"
 "Matt McLain","R",0.24786,"CIN"
 "Hunter Goodman","R",0.24592,"COL"
-"Zack Gelof","R",NA,"ATH"
+"Zack Gelof","R",0.2254,"ATH"
 "Niko Kavadas","L",0.20564,"LAA"
-"Brett Harris","R",NA,"ATH"
+"Brett Harris","R",0.21756,"ATH"
 "Kyle Manzardo","L",0.2448,"CLE"
 "Darren Baker","L",0.25056,"WSN"
 "Jacob Young","R",0.2277,"WSN"
@@ -780,7 +780,7 @@
 "Jackson Holliday","L",0.23381,"BAL"
 "Masataka Yoshida","L",0.2712,"BOS"
 "Nolan Schanuel","L",0.25123,"LAA"
-"Jacob Wilson","R",NA,"ATH"
+"Jacob Wilson","R",0.24696,"ATH"
 "Wyatt Langford","R",0.2475,"TEX"
 "Dylan Crews","R",0.25344,"WSN"
 "Jung Hoo Lee","L",0.265,"SFG"
