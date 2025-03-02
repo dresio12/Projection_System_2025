@@ -126,8 +126,6 @@ data_nosplit <- jsonlite::fromJSON(nonsplit_api)$data |>
 
 lhb_pf <- read_excel("lhb_pf.xlsx")
 rhb_pf <- read_excel("rhb_pf.xlsx")
-rolling_lhb_pf <- read_excel("rolling_lhb_pf.xlsx")
-rolling_rhb_pf <- read_excel("rolling_rhb_pf.xlsx")
 
 pfs_combined <- full_join(lhb_pf, rhb_pf, 
                           by = c("Season", "team"), 
@@ -191,11 +189,16 @@ adj_data <- adj_data |>
     BU = sum(BU, na.rm = TRUE),
     BUH = sum(BUH, na.rm = TRUE),
     SB = sum(SB, na.rm = TRUE),
-    CS = sum(CS, na.rm = TRUE),
-    AVG = sum(H, na.rm = TRUE) / sum(AB, na.rm = TRUE),
-    OBP = (sum(H, na.rm = TRUE) + sum(BB, na.rm = TRUE)) / (sum(AB, na.rm = TRUE) + sum(BB, na.rm = TRUE)),
-    SLG = sum(X1B + (2*X2B) + (3*X3B) + (4*HR))/AB,
-    OPS = sum(OBP + SLG),
+    CS = sum(CS, na.rm = TRUE)
+  )
+
+   
+adj_data <- adj_data |> 
+  mutate(
+    AVG = H/AB,
+    OBP = (H + BB + HBP) / (AB + BB + HBP + SF),
+    SLG = (X1B + (2*X2B) + (3*X3B) + (4*HR))/AB,
+    OPS = OBP + SLG,
     wOBA = case_when(
       Season == 2018 ~ ((0.690 * (BB-IBB)) + (0.719 * HBP) + (0.880 * X1B) + (1.247 * X2B) + (1.578 * X3B) + (2.031 * HR)) / 
         (AB + BB - IBB + SF + HBP),
@@ -216,12 +219,12 @@ adj_data <- adj_data |>
     K_pct = (SO / (AB + BB + HBP + SF + SH)) * 100,
     BB_K = BB/SO,
     ISO = SLG-AVG,
-    BABIP = (H - HR) / (AB - SO - HR + SF),
-    BaseRunning = sum(BaseRunning),
+    BABIP = (H - HR) / (AB - SO - HR + SF)
     )
 
 adj_data <- adj_data |>
-  unique()
+  unique() |>
+  arrange(desc(Season), name)
 
 adj_data <- left_join(adj_data, data_nosplit)
 
