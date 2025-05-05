@@ -4,8 +4,8 @@ library(dplyr)
 library(rsconnect)
 
 rsconnect::setAccountInfo(name='derkrez',
-                          token='AD324C025BF0B0AFA396E018CD30B2D4',
-                          secret='8M9ujfv1U102rDfFjxNoLuOsszaIz8iCVK4UhhkJ')
+                          token='',
+                          secret='')
 
 final_hitters <- read.csv("final_hitter_projections.csv", check.names = FALSE)
 final_pitchers <- read.csv("final_pitcher_projections.csv", check.names = FALSE)
